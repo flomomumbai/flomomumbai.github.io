@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>FloMo | Welcome</title>
+    <script src="googlemaps.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=APIKEY&callback=initMap&libraries=visualization,geometry&v=weekly"
+      defer
+    >
+    </script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><i class="fa fa-cloud"></i>FloMo</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+        <div id="floating-panel">
+          <button onclick="Theatmap()">Rainfall Heatmap</button>
+          <button onclick="markers()">Rainfall Data</button>
+        </div>
+        <div id="map"></div>
+        <div id="legend"><h3>Legend</h3></div>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Get Our Newsletter</h1>
+        <form action="">
+          <input type="email" placeholder="Enter your email address ... ">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <section id="boxes">
+      <div class="row">
+        <div class="column">
+          <i class="fa fa-cloud fa-5x"></i>
+          <h3>Rainfall Data</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nulla id quisquam veritatis eius perspiciatis velit eum unde soluta, veniam aliquid deleniti ex similique. Aperiam molestiae natus nulla sit, quis.</p>
+        </div>
+        <div class="column">
+          <i class="fa fa-globe fa-5x"></i>
+          <h3>Rainfall Heatmaps</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quia magnam, voluptates, impedit eum laboriosam assumenda eos sit at nihil, dolore! Aliquam, laborum neque corporis molestiae eius ea laudantium porro.</p>
+        </div>
+        <div class="column">
+          <i class="fa fa-road fa-5x"></i>
+          <h3>Waterlogging Sites</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quia magnam, voluptates, impedit eum laboriosam assumenda eos sit at nihil, dolore! Aliquam, laborum neque corporis molestiae eius ea laudantium porro.</p>
+        </div>
+        </div>
+    </section>
+    <section id="boxes1">
+      <div class="row1">
+        <div class="column1">
+          <div><img src="img/img1.png" /></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quia magnam, voluptates, impedit eum laboriosam assumenda eos sit at nihil, dolore! Aliquam, laborum neque corporis molestiae eius ea laudantium porro.</p>
+          </div>
+          <div class="column1">
+            <div><img src="img/img2.png" /></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quia magnam, voluptates, impedit eum laboriosam assumenda eos sit at nihil, dolore! Aliquam, laborum neque corporis molestiae eius ea laudantium porro.</p>
+            </div>
+            <div class="column1">
+              <div><img src="img/img3.png" /></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quia magnam, voluptates, impedit eum laboriosam assumenda eos sit at nihil, dolore! Aliquam, laborum neque corporis molestiae eius ea laudantium porro.</p>
+              </div>
+      </div>
+    </section>
+    <footer>
+      <p>FloMo, Copyright &copy; 2020</p>
+    </footer>
+  </body>
+
+</html>
